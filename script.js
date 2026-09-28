@@ -1,6 +1,6 @@
 //your JS code here. If required.
 const buttons=document.querySelectorAll(".btn");
-const stop=document.querySelectorAll(".stop");
+const stop=document.querySelector(".stop");
 buttons.forEach((button)=>{
     button.addEventListener("click",()=>{
         const soundName=button.innerText;
