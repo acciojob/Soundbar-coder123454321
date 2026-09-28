@@ -7,10 +7,10 @@ buttons.forEach((button)=>{
         audio=new audio("sounds/" + soundName + ".mp3");
         audio.play();
     })
-    stop.addEventListener("click",()=>{
+})
+stop.addEventListener("click",()=>{
         if(audio){
             audio.pause();
             audio.currentTime=0;
         }
     })
-})
